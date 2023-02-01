@@ -1,0 +1,10 @@
+sam's note dump
+
+non-standard packages we need:
+- otter-grader
+- rise
+
+about lab01:
+- basically copied from lec05 and 06 from dsc 10.
+- using RISE since the lab is primarily about writing code, so it'll be easier not to have to flip back and forth a bunch
+- ugh, don't really like nba players example but i don't have enough time to make another one.

@@ -11,3 +11,5 @@ push: ## pushes changes to git
 	git pull origin main
 	git push origin main
 
+lab01:
+	otter assign src/lab01/lab01.ipynb build

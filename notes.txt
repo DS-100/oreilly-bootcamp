@@ -1,5 +1,8 @@
 sam's note dump
 
+using colab
+- can't use rise anymore
+
 non-standard packages we need:
 - otter-grader
 - rise

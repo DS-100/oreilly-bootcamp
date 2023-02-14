@@ -1,2 +1,1 @@
 otter-grader<=3.3.0
-rise<=6

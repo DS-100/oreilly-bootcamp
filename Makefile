@@ -12,13 +12,13 @@ push: ## pushes changes to git
 	git push origin main
 
 lab01: ## lab01
-	otter assign src/lab01/lab01.ipynb .otter-build
+	otter assign --no-run-tests src/lab01/lab01.ipynb .otter-build
 	mkdir -p lab01
 	mv .otter-build/student/* lab01/
 	rm -rf .otter-build
 
 lab04: ## lab04
-	otter assign src/lab04/lab04.ipynb .otter-build
+	otter assign --no-run-tests src/lab04/lab04.ipynb .otter-build
 	mkdir -p lab04
 	mv .otter-build/student/* lab04/
 	rm -rf .otter-build

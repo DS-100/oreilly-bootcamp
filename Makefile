@@ -17,6 +17,12 @@ lab01: ## lab01
 	mv .otter-build/student/* lab01/
 	rm -rf .otter-build
 
+lab03: ## lab03
+	otter assign --no-run-tests src/lab03/lab03.ipynb .otter-build
+	mkdir -p lab03
+	mv .otter-build/student/* lab03/
+	rm -rf .otter-build lab03/tests
+
 lab04: ## lab04
 	otter assign --no-run-tests src/lab04/lab04.ipynb .otter-build
 	mkdir -p lab04
